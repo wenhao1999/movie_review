@@ -2,6 +2,7 @@ import streamlit as st
 import nltk
 from nltk.tokenize import word_tokenize
 from joblib import load
+nltk.download('punkt_tab')
 
 # Download NLTK resources if not already downloaded
 nltk.download('punkt')
